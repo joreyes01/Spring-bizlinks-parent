@@ -28,5 +28,6 @@ public class AppGamingBasicJava {
 		//Iteración 3
 		ApplicationContext ctx = new AnnotationConfigApplicationContext(GameConfig.class);
 		ctx.getBean(GameRunner.class).run();
+
 	}
 }
